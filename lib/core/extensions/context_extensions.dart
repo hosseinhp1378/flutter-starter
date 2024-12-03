@@ -41,8 +41,4 @@ extension BaseContextExtensions on BuildContext {
         useRootNavigator: useRootNavigator,
       );
 
-  void popAll({
-    Widget? thenAdd,
-  }) =>
-      navigator.popAll(thenAdd: thenAdd);
 }
